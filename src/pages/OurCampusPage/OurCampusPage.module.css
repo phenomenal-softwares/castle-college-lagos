@@ -1,0 +1,75 @@
+.page {
+  min-width: 0;
+}
+
+.sectionLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.galleryLink {
+  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+.imageButton {
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.facilityImage {
+  height: 220px;
+}
+
+.galleryImage {
+  height: 290px;
+}
+
+.imageButton .photo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 240ms ease;
+}
+
+.imageButton:hover .photo {
+  transform: scale(1.04);
+}
+
+.imageButton:focus-visible {
+  outline: 3px solid var(--teal);
+  outline-offset: -3px;
+}
+
+.page section[id] {
+  scroll-margin-top: 100px;
+}
+
+@media (max-width: 640px) {
+  .sectionLinks {
+    align-items: stretch;
+    flex-direction: column;
+    max-width: 280px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page {
+    animation: pageFadeIn 420ms ease both;
+  }
+}
+
+@keyframes pageFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,9 @@
+.pageFrame {
+  min-width: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .pageFrame {
+    will-change: opacity, transform;
+  }
+}

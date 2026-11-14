@@ -1,0 +1,9 @@
+.sectionHeader {
+  min-width: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sectionHeader {
+    animation: none;
+  }
+}

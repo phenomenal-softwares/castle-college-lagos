@@ -1,0 +1,133 @@
+.page {
+  min-width: 0;
+}
+
+.storyPanel {
+  display: flex;
+  align-items: stretch;
+}
+
+.storyPanelInner {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(20, 44, 53, 0.98), rgba(23, 107, 104, 0.92));
+  color: #fff;
+  border-radius: 28px;
+  padding: 28px;
+  box-shadow: 0 18px 34px rgba(20, 44, 53, 0.12);
+}
+
+.storyPanelInner h3 {
+  margin: 0 0 14px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.storyPanelInner p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.photoGrid,
+.leadershipGrid {
+  display: grid;
+  gap: 22px;
+}
+
+.photoGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.personCard,
+.leadershipCard {
+  background: #fff;
+  border: 1px solid rgba(20, 44, 53, 0.06);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 12px 26px rgba(20, 44, 53, 0.04);
+}
+
+.personCard img,
+.leadershipCard img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.personInfo,
+.leadershipCard > div {
+  padding: 18px 18px 22px;
+}
+
+.personInfo h3,
+.leadershipCard h3 {
+  margin: 0 0 8px;
+  color: var(--navy);
+  font-size: 1.32rem;
+}
+
+.personInfo p,
+.leadershipCard p {
+  margin: 0;
+  color: var(--slate);
+  line-height: 1.7;
+}
+
+.role {
+  margin-bottom: 10px !important;
+  color: var(--teal) !important;
+  font-weight: 700;
+}
+
+.leadershipGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.ctaRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid rgba(20, 44, 53, 0.08);
+}
+
+.ctaRow p {
+  margin: 0;
+  color: var(--navy);
+  font-size: 1.04rem;
+  font-weight: 600;
+}
+
+@media (max-width: 980px) {
+  .photoGrid,
+  .leadershipGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .photoGrid,
+  .leadershipGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .ctaRow {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .page {
+    animation: pageFadeIn 420ms ease both;
+  }
+}
+
+@keyframes pageFadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
