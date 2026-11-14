@@ -26,7 +26,7 @@ function HomePage() {
           tabIndex={-1}
         >
           <source
-            src="https://videos.pexels.com/video-files/8342706/8342706-hd_1280_720_25fps.mp4"
+            src="https://www.pexels.com/download/video/35701199/"
             type="video/mp4"
           />
         </video>
@@ -59,7 +59,7 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="stats-band">
+      <section className="content-section">
         <div className="container stats-grid">
           {schoolData.stats.map((stat) => (
             <div key={stat.label} className="stat-card">
