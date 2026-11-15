@@ -33,7 +33,7 @@ function OurCampusPage() {
           <h1>Spaces and experiences that bring learning to life.</h1>
           <div className={styles.sectionLinks}>
             <a href="#facilities" className="button button-primary">Explore facilities</a>
-            <a href="#gallery" className={`button button-secondary ${styles.galleryLink}`}>View campus gallery</a>
+            <a href="#gallery" className={`button button-light ${styles.galleryLink}`}>View campus gallery</a>
           </div>
         </div>
       </section>

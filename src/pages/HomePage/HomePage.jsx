@@ -21,7 +21,7 @@ function HomePage() {
           loop
           playsInline
           preload={shouldReduceMotion ? 'none' : 'metadata'}
-          poster="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1920&q=80"
+          poster="https://media.istockphoto.com/id/2281716878/photo/young-schoolgirl-wearing-uniform-and-backpack-smiling.jpg?s=612x612&w=0&k=20&c=cKQh1inqlI7nI8UsPI8DHCwV-diatPPSEakgxB-q5bU="
           aria-hidden="true"
           tabIndex={-1}
         >

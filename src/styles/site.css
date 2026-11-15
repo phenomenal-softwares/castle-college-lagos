@@ -144,6 +144,12 @@
   border: 1px solid rgba(23, 107, 104, 0.12);
 }
 
+.button-light {
+  background: rgba(255, 255, 255, 0.5);
+  color: var(--navy);
+  border: 1px solid rgba(20, 44, 53, 0.12);
+}
+
 .menu-button {
   display: none;
   border: 1px solid rgba(20, 44, 53, 0.12);
@@ -204,15 +210,15 @@
 }
 
 .banner-about {
-  background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/176830893/photo/modern-high-school-with-flagpole.jpg?s=612x612&w=0&k=20&c=DZ_34jyoM_QmpkPaAqb1orT3y3GL6YnJyGZbOfaJSIk=');
 }
 
 .banner-academics {
-  background-image: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/492668072/photo/writing-and-learning-symbol-cute-african-schoolgirl-doing-homework.jpg?s=612x612&w=0&k=20&c=QU3tzZMlDXI1I83pARq4hIdy6-ulay-flti2SLyM5rI=');
 }
 
 .banner-admissions {
-  background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/803146876/photo/kids-raising-hands-during-a-lesson-at-an-elementary-school.jpg?s=612x612&w=0&k=20&c=i16UhVrG08ey3kiNbSTwyTChmKY0fDepE2o3hurAGC8=');
 }
 
 .banner-life {
@@ -220,20 +226,20 @@
 }
 
 .banner-news {
-  background-image: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/879447344/photo/newsletter-icon-and-sign-on-computer-key.jpg?s=612x612&w=0&k=20&c=jCAkAIgXZZnLV_EM5tG-xB9CKF7IiE2-98Fx6ZEkaCA=');
 }
 
 .banner-campus {
-  background-image: url('https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/2272394354/photo/high-tech-high-school-vocational-campus-with-solar-panels-and-athletic-facilities-from-aerial.jpg?s=612x612&w=0&k=20&c=H1vJ7JwyQheNr2_z3KwKqM10pXJUw_q4k8wm9NiAK6g=');
 }
 
 .banner-contact {
-  background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/2222916098/photo/blue-contact-us-icons-on-grey-background-email-phone-chat-and-mail-symbols-for-customer.jpg?s=612x612&w=0&k=20&c=uaPp5bE2jLWrYFf5x9EipPSADpU659kbfPyfr2d9JG4=');
 }
 
 .banner-portal,
 .banner-portal-inner {
-  background-image: url('https://images.unsplash.com/photo-1513258496099-48168024aec0?auto=format&fit=crop&w=1600&q=80');
+  background-image: url('https://media.istockphoto.com/id/2230303040/photo/hands-typing-and-laptop-at-office-for-review-proposal-and-report-for-finance-at-corporate.jpg?s=612x612&w=0&k=20&c=YkTZMWn7o4ZgFd8stYhSX1CqWUDvl7ZUffcpu-JTSaw=');
 }
 
 .page-banner h1 {
@@ -251,7 +257,7 @@
   font-weight: 800;
   letter-spacing: 0.17em;
   text-transform: uppercase;
-  color: var(--teal);
+  color: var(--gold);
 }
 
 .hero-text,
@@ -479,7 +485,7 @@
 }
 
 .subject-panel {
-  background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80');
+  background-image: url('https://media.istockphoto.com/id/1296157980/photo/north-african-businessman-brainstorming-with-coworkers-on-an-office-writing-white-wall.jpg?s=612x612&w=0&k=20&c=LJMrbv10A_TqVcOth4kazWtT-_kEwNRptZaqTqqykYM=');
 }
 
 .life-panel {

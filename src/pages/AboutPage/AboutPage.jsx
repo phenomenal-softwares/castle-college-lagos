@@ -35,7 +35,7 @@ function AboutPage() {
           <div className={styles.storyPanel}>
             <div className={styles.storyPanelInner}>
               <h3>Our motto</h3>
-              <p>{schoolData.motto}</p>
+              <p className={styles.motto}>{schoolData.motto}</p>
             </div>
           </div>
         </div>
